@@ -19,7 +19,9 @@
 		}
 	},
         "require": {
-            "verbi/yii2-oauth2-server": "*"
+            "verbi/yii2-oauth2-server": "*",
+            "verbi/yii2-extended-rest-controller": "*",
+            "verbi/yii2-extended-module": "*"
         },
         "scripts": {
             "post-install-cmd": "ivanovyordan\\migration\\Migration::migrate",
