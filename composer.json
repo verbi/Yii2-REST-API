@@ -1,5 +1,5 @@
 {
-	"name": "verbi/Yii2-REST-API",
+	"name": "verbi/Yii2-rest-api",
 	"description": "Yii2 REST API",
 	"keywords": ["yii2", "extension", "module", "rest", "api"],
 	"type": "yii2-extension",
@@ -11,7 +11,7 @@
 		}
 	],
 	"support": {
-		"source": "http://github.com/verbi/Yii2-REST-API"
+		"source": "http://github.com/verbi/yii2-rest-api"
 	},
 	"autoload": {
 		"psr-4": {
