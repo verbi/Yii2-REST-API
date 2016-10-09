@@ -1,0 +1,25 @@
+{
+	"name": "verbi/yii2-rest-api",
+	"description": "Yii2 REST API",
+	"keywords": ["yii2", "extension", "module", "rest", "api"],
+	"type": "yii2-extension",
+	"license": "GPLv3",
+	"authors": [
+		{
+			"name": "Philip Verbist",
+			"email": "philip.verbist@gmail.com"
+		}
+	],
+	"support": {
+		"source": "http://github.com/verbi/Yii2-REST-API"
+	},
+	"autoload": {
+		"psr-4": {
+			"verbi\\yii2RestApi\\": "src/"
+		}
+	},
+        "scripts": {
+            "post-install-cmd": "ivanovyordan\\migration\\Migration::migrate",
+            "post-update-cmd": "ivanovyordan\\migration\\Migration::migrate"
+        }
+}
